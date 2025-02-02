@@ -1,4 +1,7 @@
 # Efficient-Task-Execution-with-Custom-Thread-Pool
+<p align="center">
+  <img src="https://excalidraw.com/#json=wKMCOh9KJB2o4IGGHiMXz,E6gLjntwttatwpH3l-Geeg" alt="Thread Pool Execution" width="400">
+</p>
 This implementation demonstrates how to efficiently manage and execute multiple tasks using a custom thread pool backed by a BlockingQueue. Instead of creating a new thread for every task, a fixed number of worker threads continuously fetch and execute tasks from the queue, optimizing resource utilization and improving performance.
 
 # 🔄 How It Works
